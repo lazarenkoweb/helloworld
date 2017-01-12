@@ -1,3 +1,43 @@
-h3{
-	color: #333333;
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    padding-top: 10px;
+    color: cadetblue;
+    font-size: 100px;
+    font-family: monospace;
+    line-height: 0px;
+
+}
+
+h3 {
+    color: cadetblue;
+    font-family: monospace;
+    font-size: 23px;
+    line-height: 0px;
+    padding: 0 270px 0 0;
+}
+
+.web {
+    color: white;
+    background-color: #005cff;
+}
+
+.aside-left {
+    border: grey 2px solid;
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+
+.main {
+    border: grey 2px solid;
+    width: 49%;
+    height: 100%;
+    clear: both;
+    float: right;
+    text-align:right
 }
